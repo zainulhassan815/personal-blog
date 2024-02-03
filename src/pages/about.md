@@ -3,16 +3,11 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+As a Mobile App Developer, I have a passion for developing innovative and user-friendly mobile applications. With 3+ years of experience in the field, I have crafted my skills in Kotlin and Android development and have a strong understanding of the latest development tools and technologies.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+I effectively collaborate with cross-functional teams to achieve project goals. I am a dedicated and hardworking individual who is committed to delivering quality work and ensuring customer satisfaction.
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
-
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+If you're curious to dive deeper into my work, you can follow me:
 
 ## Tech Stack
 
@@ -32,5 +27,5 @@ Here are certain features of this site.
 - sitemap & rss feed
 - highly customizable
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
+If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).
 Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
