@@ -10,6 +10,7 @@ import mdx from "@astrojs/mdx";
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
+  base: "/personal-blog",
   integrations: [
     tailwind({
       applyBaseStyles: false,
