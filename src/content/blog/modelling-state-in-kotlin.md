@@ -2,6 +2,7 @@
 author: Zain Ul Hassan
 pubDatetime: 2024-02-18T15:20:24.411Z
 title: Modelling State in Kotlin
+featured: true
 tags:
   - kotlin
   - android
