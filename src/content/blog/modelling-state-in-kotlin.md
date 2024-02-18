@@ -1,16 +1,14 @@
 ---
 author: Zain Ul Hassan
-pubDatetime: 2024-02-18T18:38:13.000Z
-title: Modeling State in Kotlin
-featured: true
-draft: false
+pubDatetime: 2024-02-18T15:20:24.411Z
+title: Modelling State in Kotlin
 tags:
   - kotlin
   - android
   - compose
   - architecture
   - state
-description: A simple guide on modeling state with data classes in kotlin
+description: A simple guide on modelling state with in kotlin
 ---
 
 State in an app is any value that can change over time. All Android apps display state to the user.
