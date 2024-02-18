@@ -9,7 +9,7 @@ tags:
   - compose
   - architecture
   - state
-description: A simple guide on modelling state with in kotlin
+description: A simple guide on modelling state in kotlin
 ---
 
 State in an app is any value that can change over time. All Android apps display state to the user.
