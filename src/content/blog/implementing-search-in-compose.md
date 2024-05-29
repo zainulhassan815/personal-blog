@@ -1,6 +1,6 @@
 ---
 author: Zain Ul Hassan
-pubDatetime: 2024-05-29T16:52:04.000Z
+pubDatetime: 2024-05-29T16:36:02.047Z
 title: How to Implement Search in Compose
 featured: true
 draft: false
