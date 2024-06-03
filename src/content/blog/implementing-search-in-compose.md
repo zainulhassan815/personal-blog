@@ -1,6 +1,7 @@
 ---
 author: Zain Ul Hassan
 pubDatetime: 2024-05-29T16:36:02.047Z
+modDatetime: 2024-06-03T20:11:29.430Z
 title: How to Implement Search in Compose
 featured: true
 draft: false
@@ -103,14 +104,13 @@ We can easily implement search by using Kotlin's flow api and LaunchedEffect:
 LaunchedEffect(currencies) {
   snapshotFlow { query }
     .debounce(300)
-    .mapLatest { it.lowercase().trim() }
     .distinctUntilChanged()
     .mapLatest {
         currencies.filter { currency ->
-            currency.name.contains(it, ignoreCase = true) || currency.code.contains(it, ignoreCase = true)
+            currency.name.contains(it.trim(), ignoreCase = true) || currency.code.contains(it.trim(), ignoreCase = true)
         }
     }
-    .flowOn(Dispatchers.IO)
+    .flowOn(Dispatchers.Default)
     .collectLatest { filteredCurrencies = it }
 }
 ```
