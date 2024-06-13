@@ -2,7 +2,7 @@
 title: Expanding Text Component in Jetpack Compose
 author: Zain Ul Hassan
 pubDatetime: 2024-02-12T17:19:48.832Z
-featured: true
+featured: false
 draft: false
 tags:
   - compose
